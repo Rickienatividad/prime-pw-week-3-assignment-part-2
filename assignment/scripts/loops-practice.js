@@ -27,6 +27,7 @@ console.log(i);
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
+
 //method 1 I started the index variable at 2 and changed the conditional to be less than/equal to 10. I added an if statement to divide by 2 and check for a remainder of 0 to ensure the numbers logged are even.
 for(i=2; i<=10; i++){
   if(i % 2 == 0){
@@ -34,7 +35,7 @@ for(i=2; i<=10; i++){
   }
 }
 
-//method 2 I set the variable i to a value of 2, changed the conditional to be less than/equal to 10 and incremented by 2 instead of by 1 to log even numbers starting at 2.
+//method 2 I set the variable i to a value of 2, changed the conditional to be less than/equal to 10 and incremented by 2 to log even numbers starting at 2.
 for(i=2; i<=10; i+=2){
   console.log(i);
 }
